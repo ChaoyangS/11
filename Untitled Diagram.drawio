@@ -538,7 +538,7 @@
             <mxPoint x="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jSTN_1CuGeqP3LovvceV-144" value="belongs to" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="jSTN_1CuGeqP3LovvceV-144" value="is_a" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-70" y="750" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jSTN_1CuGeqP3LovvceV-145" value="member" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -600,6 +600,15 @@
         </mxCell>
         <mxCell id="jSTN_1CuGeqP3LovvceV-162" value="1..1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="jSTN_1CuGeqP3LovvceV-161">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jSTN_1CuGeqP3LovvceV-163" value="member_id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jSTN_1CuGeqP3LovvceV-164" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jSTN_1CuGeqP3LovvceV-163" target="jSTN_1CuGeqP3LovvceV-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="870" as="sourcePoint" />
+            <mxPoint x="170" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
